@@ -1,0 +1,42 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Python-specific
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+*.env
+
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+
+# Testing
+.coverage
+coverage.xml
+*.cover
+htmlcov/
+
+# Production
+/dist
+/build
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Misc
+.DS_Store
+*.log
+
+# Project-specific
+/src  # Если вы не используете эту папку в Python-проекте, можно оставить
